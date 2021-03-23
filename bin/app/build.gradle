@@ -1,0 +1,12 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation 'de.mkammerer:argon2-jvm:2.7'
+}
+
+mainClassName = 'example.Main'
